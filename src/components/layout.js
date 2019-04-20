@@ -38,7 +38,7 @@ const Layout = ({ children }) => (
           <footer className="footer">
             © 2011 - {new Date().getFullYear()}, Textos originales de
             {` `}
-            <a href="https://github.com/agm-dev" className="author" target="_blank">Adrián Gonzalo</a>.
+            <a href="https://github.com/agm-dev" className="author" target="_blank" rel="noopener noreferrer">Adrián Gonzalo</a>.
           </footer>
         </div>
       </>

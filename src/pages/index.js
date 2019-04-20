@@ -14,7 +14,7 @@ const IndexPage = props => {
         <Link to={node.fields.slug} className='link'>
           <div className='post-list'>
             <h1>{node.frontmatter.title}</h1>
-            <span>{node.frontmatter.date}</span>
+            <span className="date">{node.frontmatter.date}</span>
             <p>{node.excerpt}</p>
           </div>
         </Link>

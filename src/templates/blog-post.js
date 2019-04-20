@@ -10,13 +10,14 @@ const BlogPost = props => {
 
   const post = props.data.markdownRemark
   const url = props.data.site.siteMetadata.siteUrl
-  const { title, description } = post.frontmatter
+  const { title, description, date } = post.frontmatter
 
   return (
     <Layout>
       <SEO title={title} description={description} url={url} pathname={props.location.pathname} />
       <div>
         <h1>{ title }</h1>
+        <span className="date">{date}</span>
         <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
       </div>
     </Layout>
@@ -30,6 +31,7 @@ export const query = graphql`
       frontmatter {
         title
         description
+        date
       }
     }
     site {

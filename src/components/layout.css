@@ -42,6 +42,8 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  text-decoration: none;
+  color: #444444
 }
 a:active,
 a:hover {
@@ -66,7 +68,7 @@ h1 {
 }
 mark {
   background-color: #ff0;
-  color: #000;
+  color: #444444;
 }
 small {
   font-size: 80%;
@@ -185,7 +187,7 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em georgia, serif;
+  font: 115.5%/1.55em georgia, serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -199,7 +201,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
+  color: #444444;
   font-family: georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
@@ -617,6 +619,19 @@ pre tt:after {
 }
 @media only screen and (max-width: 480px) {
   html {
-    font-size: 100%;
+    font-size: 110%;
   }
+  .footer {
+    font-size: 75%;
+  }
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  font-size: 85%;
+}
+.date {
+  color: #30323D;
+  margin-bottom: 15px;
+  display: inline-block;
 }

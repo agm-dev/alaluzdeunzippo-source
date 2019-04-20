@@ -35,10 +35,10 @@ const Layout = ({ children }) => (
           }}
         >
           <main>{children}</main>
-          <footer>
-            © {new Date().getFullYear()}, Built with
+          <footer className="footer">
+            © 2011 - {new Date().getFullYear()}, Textos originales de
             {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
+            <a href="https://github.com/agm-dev" className="author" target="_blank">Adrián Gonzalo</a>.
           </footer>
         </div>
       </>

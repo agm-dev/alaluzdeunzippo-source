@@ -1,5 +1,5 @@
-# agm-dev.ninja
+# alaluzdeunzippo source files
 
-Personal website powered by [Gatsby](https://github.com/gatsbyjs/gatsby).
+Personal micro stories blog, powered by [Gatsby](https://github.com/gatsbyjs/gatsby).
 
-Should be available at [agm-dev.ninja](https://agm-dev.ninja).
+Should be available at [alaluzdeunzippo.es](https://alaluzdeunzippo.es).

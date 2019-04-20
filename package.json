@@ -1,6 +1,6 @@
 {
-  "name": "agm-dev-site",
-  "description": "A personal website powered by Gatsby",
+  "name": "alaluzdeunzippo",
+  "description": "Personal micro stories site",
   "version": "0.1.0",
   "author": "Adrián Gonzalo <the.real.agm.dev@gmail.com>",
   "dependencies": {
@@ -26,7 +26,7 @@
   },
   "keywords": [
     "gatsby",
-    "agm-dev"
+    "micro stories"
   ],
   "license": "MIT",
   "scripts": {
